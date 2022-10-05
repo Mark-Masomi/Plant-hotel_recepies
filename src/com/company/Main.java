@@ -1,5 +1,10 @@
 package com.company;
 
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
 
@@ -13,6 +18,18 @@ public class Main {
                 + laura.mängd_näring()+"\n"
                 +igge.mängd_näring()+"\n"
                 +putte.mängd_näring());
-
-    }
+        /*List<växt> hotellistan= Arrays.asList(laura,meatLoaf,igge,putte);
+        String input= JOptionPane.showInputDialog("vilken planta som du vill vattna?");
+        for (växt n:hotellistan) {
+            if (input.equalsIgnoreCase(n.getNamn())){
+                JOptionPane.showMessageDialog(null,n.mängd_näring());
+                break;
+            }*/
+        }
 }
+
+
+
+
+
+
