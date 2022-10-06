@@ -2,6 +2,7 @@ package com.company;
 
 public class växt implements näringsformeln {
 
+
     protected double längd;
     protected String namn;
     //inkapsling

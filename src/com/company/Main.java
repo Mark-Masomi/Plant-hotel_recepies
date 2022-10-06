@@ -23,12 +23,20 @@ public class Main {
                 +putte.mängd_näring());*/
         List<växt> hotellistan = Arrays.asList(laura, meatLoaf, igge, putte);
         String input = JOptionPane.showInputDialog("vilken planta som du vill vattna?");
+        input.trim();
         for (växt n : hotellistan) {
             if (input.equalsIgnoreCase(n.getNamn())) {
                 JOptionPane.showMessageDialog(null, n.mängd_näring());
                 break;
-            }else break;
+            }else {
+                JOptionPane.showMessageDialog(null,"plantan du valt finns inte med i listan");
+            break;
+            }
+
         }
+        /*String input = JOptionPane.showInputDialog("vilken planta som du vill vattna?");
+        user user=new user();
+        user.whichplant(user.hotellistan,input);*/
     }
 }
 
