@@ -24,19 +24,20 @@ public class Main {
         List<växt> hotellistan = Arrays.asList(laura, meatLoaf, igge, putte);
         String input = JOptionPane.showInputDialog("vilken planta som du vill vattna?");
         input.trim();
-        for (växt n : hotellistan) {
-            if (input.equalsIgnoreCase(n.getNamn())) {
-                JOptionPane.showMessageDialog(null, n.mängd_näring());
+        int i =0;
+        for (växt v:hotellistan) {
+            if (input.equalsIgnoreCase(v.getNamn())) {
+                JOptionPane.showMessageDialog(null, v.mängd_näring());
+                i=1;
+
                 break;
-            }else {
-                JOptionPane.showMessageDialog(null,"plantan du valt finns inte med i listan");
-            break;
             }
 
         }
-        /*String input = JOptionPane.showInputDialog("vilken planta som du vill vattna?");
-        user user=new user();
-        user.whichplant(user.hotellistan,input);*/
+        if (i==0){
+            JOptionPane.showMessageDialog(null,"plantan du valt finns inte med i listan, " +
+                    "kör programmet igen och försök igen !");
+        }
     }
 }
 
