@@ -102,7 +102,7 @@ Igge behöver 2 cl mineravatten per dag!
 
 ## 📄 License
 
-This project is licensed under the **MIT [LICENSE](LICENSE)**. [lICENSE](LICENSE)
+This project is licensed under the **MIT [LICENSE](LICENSE)**. **[lICENSE](LICENSE)**   
 
 ---
 
