@@ -21,7 +21,7 @@ This project was developed to **practice object-oriented programming (OOP)** pri
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/Mark-Masomi/greenest.git
+   git clone https://github.com/Mark-Masomi/Plant-hotel_recepies.git
    cd planthotel
    ```
 
