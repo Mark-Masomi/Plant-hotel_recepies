@@ -21,8 +21,8 @@ This project was developed to **practice object-oriented programming (OOP)** pri
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/Mark-Masomi/Plant-hotel_recepies.git
-   cd planthotel
+   git clone https://github.com/Mark-Masomi/Plant-hotel_recipes.git
+   cd Plant-hotel_recipes
    ```
 
 2. **Compile the Java Files**  
