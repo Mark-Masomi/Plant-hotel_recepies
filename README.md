@@ -109,7 +109,7 @@ This project is licensed under the **MIT [LICENSE](LICENSE)**.
 ## 📞 Contact
 
 For questions, feel free to contact:  
-📧 [Mark-Masomi@outlook.com](mailto:Mark-Masomi@outlook.com)
+📧 [MarkMasomi@outlook.com](mailto:MarkMasomi@outlook.com)
 
 ---
 
