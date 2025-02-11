@@ -1,7 +1,7 @@
 ```markdown
-# 🌿 Planthotel - Java OOP Application
+# 🌿 Plant-hotel_recipes - Java OOP Application
 
-**Planthotel** is a Java-based application designed to assist **plant hotel staff** in remembering the correct watering requirements for each plant. By entering a plant's name, the system provides the appropriate watering instructions, ensuring that each plant receives the proper care.
+**Plant-hotel_recipes** is a Java-based application designed to assist **plant hotel staff** in remembering the correct watering requirements for each plant. By entering a plant's name, the system provides the appropriate watering instructions, ensuring that each plant receives the proper care.
 
 This project was developed to **practice object-oriented programming (OOP)** principles such as **inheritance, polymorphism, and encapsulation** while solving a real-world problem.
 
